@@ -1,0 +1,50 @@
+Enter number of records: 6
+Enter number of features: 2
+Enter feature name: Area
+Enter feature name: Rooms
+Enter target variable name: Price
+
+Enter dataset values:
+
+Record 1
+Area: 1
+Rooms: 2
+Price: 9
+
+Record 2
+Area: 2
+Rooms: 1
+Price: 8
+
+Record 3
+Area: 3
+Rooms: 4
+Price: 19
+
+Record 4
+Area: 4
+Rooms: 3
+Price: 18
+
+Record 5
+Area: 5
+Rooms: 6
+Price: 29
+
+Record 6
+Area: 6
+Rooms: 5
+Price: 28
+
+Coefficients:
+b0 : 1.0
+b1 : 2.0
+b2 : 3.0
+
+Regression Equation:
+Y = 1.0 + 2.0 Area + 3.0 Rooms
+
+Enter values for a new sample:
+Area: 7
+Rooms: 4
+Predicted Y: 27.0

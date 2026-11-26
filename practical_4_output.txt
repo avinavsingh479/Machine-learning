@@ -1,0 +1,64 @@
+Enter number of records: 8
+Enter number of features: 2
+Enter feature name: Height
+Enter feature name: Weight
+Enter target variable name: Class
+
+Enter dataset values:
+
+Record 1
+Height: 1
+Weight: 2
+Class: A
+
+Record 2
+Height: 2
+Weight: 3
+Class: A
+
+Record 3
+Height: 3
+Weight: 3
+Class: A
+
+Record 4
+Height: 6
+Weight: 5
+Class: B
+
+Record 5
+Height: 7
+Weight: 7
+Class: B
+
+Record 6
+Height: 8
+Weight: 6
+Class: B
+
+Record 7
+Height: 3
+Weight: 1
+Class: A
+
+Record 8
+Height: 7
+Weight: 5
+Class: B
+
+Enter value of K: 3
+
+Enter values for a new sample:
+Height: 5
+Weight: 4
+
+Nearest Neighbors:
+Distance: 1.4142 Class: B
+Distance: 2.2361 Class: A
+Distance: 2.2361 Class: B
+
+Voting Results:
+B: 2
+A: 1
+
+Predicted Class: B

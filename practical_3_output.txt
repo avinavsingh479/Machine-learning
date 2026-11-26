@@ -1,0 +1,119 @@
+Enter number of records: 14
+Enter number of features: 4
+Enter feature name: Outlook
+Enter feature name: Temperature
+Enter feature name: Humidity
+Enter feature name: Wind
+Enter target variable name: Play
+
+Enter dataset values:
+
+Record 1
+Outlook: Sunny
+Temperature: Hot
+Humidity: High
+Wind: Weak
+Play: No
+
+Record 2
+Outlook: Sunny
+Temperature: Hot
+Humidity: High
+Wind: Strong
+Play: No
+
+Record 3
+Outlook: Overcast
+Temperature: Hot
+Humidity: High
+Wind: Weak
+Play: Yes
+
+Record 4
+Outlook: Rain
+Temperature: Mild
+Humidity: High
+Wind: Weak
+Play: Yes
+
+Record 5
+Outlook: Rain
+Temperature: Cool
+Humidity: Normal
+Wind: Weak
+Play: Yes
+
+Record 6
+Outlook: Rain
+Temperature: Cool
+Humidity: Normal
+Wind: Strong
+Play: No
+
+Record 7
+Outlook: Overcast
+Temperature: Cool
+Humidity: Normal
+Wind: Strong
+Play: Yes
+
+Record 8
+Outlook: Sunny
+Temperature: Mild
+Humidity: High
+Wind: Weak
+Play: No
+
+Record 9
+Outlook: Sunny
+Temperature: Cool
+Humidity: Normal
+Wind: Weak
+Play: Yes
+
+Record 10
+Outlook: Rain
+Temperature: Mild
+Humidity: Normal
+Wind: Weak
+Play: Yes
+
+Record 11
+Outlook: Sunny
+Temperature: Mild
+Humidity: Normal
+Wind: Strong
+Play: Yes
+
+Record 12
+Outlook: Overcast
+Temperature: Mild
+Humidity: High
+Wind: Strong
+Play: Yes
+
+Record 13
+Outlook: Overcast
+Temperature: Hot
+Humidity: Normal
+Wind: Weak
+Play: Yes
+
+Record 14
+Outlook: Rain
+Temperature: Mild
+Humidity: High
+Wind: Strong
+Play: No
+
+Enter values for a new sample:
+Outlook: Sunny
+Temperature: Cool
+Humidity: High
+Wind: Strong
+
+Class Scores:
+No: 0.018221574344023325
+Yes: 0.007083825265643448
+
+Predicted Class: No

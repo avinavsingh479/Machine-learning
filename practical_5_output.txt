@@ -1,0 +1,22 @@
+Enter number of records: 6
+
+Enter dataset values:
+X: 1
+Y: 2
+X: 2
+Y: 4
+X: 3
+Y: 5
+X: 4
+Y: 4
+X: 5
+Y: 5
+X: 6
+Y: 7
+
+Slope (m): 0.7714
+Intercept (c): 1.8
+Regression Equation: Y = 0.7714 X + 1.8
+
+Enter X value for prediction: 7
+Predicted Y: 7.2

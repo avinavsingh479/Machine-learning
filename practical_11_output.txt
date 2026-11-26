@@ -1,0 +1,59 @@
+Enter number of features: 2
+Enter number of data points: 8
+Enter number of clusters (K): 2
+
+Data point 1:
+Feature 1: 1
+Feature 2: 1
+
+Data point 2:
+Feature 1: 1.5
+Feature 2: 2
+
+Data point 3:
+Feature 1: 3
+Feature 2: 4
+
+Data point 4:
+Feature 1: 5
+Feature 2: 7
+
+Data point 5:
+Feature 1: 3.5
+Feature 2: 5
+
+Data point 6:
+Feature 1: 4.5
+Feature 2: 5
+
+Data point 7:
+Feature 1: 3.5
+Feature 2: 4.5
+
+Data point 8:
+Feature 1: 9
+Feature 2: 8
+
+========== ITERATION 1 ==========
+Cluster 1: [[1.0, 1.0]]
+Centroid 1: [1.0, 1.0]
+Cluster 2: [[1.5, 2.0], [3.0, 4.0], [5.0, 7.0], [3.5, 5.0], [4.5, 5.0], [3.5, 4.5], [9.0, 8.0]]
+Centroid 2: [4.285714285714286, 5.071428571428571]
+
+========== ITERATION 2 ==========
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Centroid 1: [1.25, 1.5]
+Cluster 2: [[3.0, 4.0], [5.0, 7.0], [3.5, 5.0], [4.5, 5.0], [3.5, 4.5], [9.0, 8.0]]
+Centroid 2: [4.75, 5.583333333333333]
+
+========== ITERATION 3 ==========
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Centroid 1: [1.25, 1.5]
+Cluster 2: [[3.0, 4.0], [5.0, 7.0], [3.5, 5.0], [4.5, 5.0], [3.5, 4.5], [9.0, 8.0]]
+Centroid 2: [4.75, 5.583333333333333]
+
+========== FINAL CLUSTERS ==========
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Final Centroid: [1.25, 1.5]
+Cluster 2: [[3.0, 4.0], [5.0, 7.0], [3.5, 5.0], [4.5, 5.0], [3.5, 4.5], [9.0, 8.0]]
+Final Centroid: [4.75, 5.583333333333333]

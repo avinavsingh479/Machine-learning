@@ -1,0 +1,73 @@
+Enter number of features: 2
+Enter number of data points: 8
+
+Data point 1:
+Feature 1: 1
+Feature 2: 1
+Class label: A
+
+Data point 2:
+Feature 1: 1.5
+Feature 2: 2
+Class label: A
+
+Data point 3:
+Feature 1: 3
+Feature 2: 4
+Class label: B
+
+Data point 4:
+Feature 1: 5
+Feature 2: 7
+Class label: B
+
+Data point 5:
+Feature 1: 3.5
+Feature 2: 5
+Class label: B
+
+Data point 6:
+Feature 1: 4.5
+Feature 2: 5
+Class label: B
+
+Data point 7:
+Feature 1: 2
+Feature 2: 1.5
+Class label: A
+
+Data point 8:
+Feature 1: 6
+Feature 2: 8
+Class label: B
+
+Enter new data point:
+Feature 1: 2.5
+Feature 2: 3
+Enter K: 3
+
+========== DISTANCE CALCULATION ==========
+Point                    Distance       Class     
+--------------------------------------------------
+[3.0, 4.0]               1.11803399     B         
+[1.5, 2.0]               1.41421356     A         
+[2.0, 1.5]               1.58113883     A         
+[3.5, 5.0]               2.23606798     B         
+[1.0, 1.0]               2.50000000     A         
+[4.5, 5.0]               2.82842712     B         
+[5.0, 7.0]               4.71699057     B         
+[6.0, 8.0]               6.10327781     B         
+
+========== NEAREST NEIGHBORS ==========
+Point                    Distance       Class     
+--------------------------------------------------
+[3.0, 4.0]               1.11803399     B         
+[1.5, 2.0]               1.41421356     A         
+[2.0, 1.5]               1.58113883     A         
+
+========== VOTING ==========
+Class B: 1 vote(s)
+Class A: 2 vote(s)
+
+========== RESULT ==========
+Predicted Class: A

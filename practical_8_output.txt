@@ -1,0 +1,47 @@
+Enter number of records: 8
+Enter number of features: 1
+Enter feature name: Hours
+
+Enter dataset values:
+
+Record 1
+Hours: 1
+Class (0/1): 0
+
+Record 2
+Hours: 2
+Class (0/1): 0
+
+Record 3
+Hours: 3
+Class (0/1): 0
+
+Record 4
+Hours: 4
+Class (0/1): 0
+
+Record 5
+Hours: 5
+Class (0/1): 1
+
+Record 6
+Hours: 6
+Class (0/1): 1
+
+Record 7
+Hours: 7
+Class (0/1): 1
+
+Record 8
+Hours: 8
+Class (0/1): 1
+
+Coefficients:
+Hours : 1.3224
+Intercept: -5.6765
+
+Enter values for a new sample:
+Hours: 4.5
+
+Probability: 0.5681
+Predicted Class: 1

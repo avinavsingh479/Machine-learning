@@ -1,0 +1,80 @@
+Enter number of features: 2
+Enter number of data points: 8
+Enter desired number of clusters: 3
+
+Data point 1:
+Feature 1: 1
+Feature 2: 1
+
+Data point 2:
+Feature 1: 1.5
+Feature 2: 2
+
+Data point 3:
+Feature 1: 3
+Feature 2: 4
+
+Data point 4:
+Feature 1: 5
+Feature 2: 7
+
+Data point 5:
+Feature 1: 3.5
+Feature 2: 5
+
+Data point 6:
+Feature 1: 4.5
+Feature 2: 5
+
+Data point 7:
+Feature 1: 3.5
+Feature 2: 4.5
+
+Data point 8:
+Feature 1: 9
+Feature 2: 8
+
+========== ITERATION 1 ==========
+Merged clusters at average distance: 0.5
+Cluster 1: [[1.0, 1.0]]
+Cluster 2: [[1.5, 2.0]]
+Cluster 3: [[3.0, 4.0]]
+Cluster 4: [[5.0, 7.0]]
+Cluster 5: [[3.5, 5.0], [3.5, 4.5]]
+Cluster 6: [[4.5, 5.0]]
+Cluster 7: [[9.0, 8.0]]
+
+========== ITERATION 2 ==========
+Merged clusters at average distance: 0.91257038
+Cluster 1: [[1.0, 1.0]]
+Cluster 2: [[1.5, 2.0]]
+Cluster 3: [[3.0, 4.0], [3.5, 5.0], [3.5, 4.5]]
+Cluster 4: [[5.0, 7.0]]
+Cluster 5: [[4.5, 5.0]]
+Cluster 6: [[9.0, 8.0]]
+
+========== ITERATION 3 ==========
+Merged clusters at average distance: 1.11803399
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Cluster 2: [[3.0, 4.0], [3.5, 5.0], [3.5, 4.5]]
+Cluster 3: [[5.0, 7.0]]
+Cluster 4: [[4.5, 5.0]]
+Cluster 5: [[9.0, 8.0]]
+
+========== ITERATION 4 ==========
+Merged clusters at average distance: 1.30693654
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Cluster 2: [[3.0, 4.0], [3.5, 5.0], [3.5, 4.5], [4.5, 5.0]]
+Cluster 3: [[5.0, 7.0]]
+Cluster 4: [[9.0, 8.0]]
+
+========== ITERATION 5 ==========
+Merged clusters at average distance: 2.77064501
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Cluster 2: [[3.0, 4.0], [3.5, 5.0], [3.5, 4.5], [4.5, 5.0], [5.0, 7.0]]
+Cluster 3: [[9.0, 8.0]]
+
+========== FINAL CLUSTERS ==========
+Cluster 1: [[1.0, 1.0], [1.5, 2.0]]
+Cluster 2: [[3.0, 4.0], [3.5, 5.0], [3.5, 4.5], [4.5, 5.0], [5.0, 7.0]]
+Cluster 3: [[9.0, 8.0]]

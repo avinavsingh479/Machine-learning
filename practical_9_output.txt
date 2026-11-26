@@ -1,0 +1,59 @@
+Enter input values:
+x1: 1
+x2: 0
+x3: 1
+Target Output: 1
+Learning Rate: 0.9
+
+Enter input-hidden weights:
+x1 -> h1: 0.2
+x1 -> h2: -0.3
+x2 -> h1: 0.4
+x2 -> h2: 0.1
+x3 -> h1: -0.5
+x3 -> h2: 0.2
+
+Enter hidden biases:
+b1 (h1): -0.4
+b2 (h2): 0.2
+
+Enter output weights:
+h1 -> output: -0.3
+h2 -> output: -0.2
+bout: 0.1
+
+========== FORWARD PROPAGATION ==========
+Net input of h1: -0.7
+Output of h1: 0.33181223
+Net input of h2: 0.1
+Output of h2: 0.52497919
+Net input of output: -0.10453951
+Actual Output: 0.4738889
+Target Output: 1.0
+
+========== ERROR ==========
+Error: 0.5261111
+
+========== BACKPROPAGATION ==========
+Delta Output: 0.13116908
+Delta h1: -0.00872456
+Delta h2: -0.00654209
+
+========== UPDATES ==========
+
+Updated input-hidden weights:
+x1 -> h1: 0.19214789
+x2 -> h1: 0.4
+x3 -> h1: -0.50785211
+x1 -> h2: -0.30588788
+x2 -> h2: 0.1
+x3 -> h2: 0.19411212
+
+Updated hidden biases:
+b1: -0.40785211
+b2: 0.19411212
+
+Updated output weights:
+h1 -> output: -0.26082885
+h2 -> output: -0.13802507
+bout: 0.21805217

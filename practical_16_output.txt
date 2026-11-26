@@ -1,0 +1,49 @@
+Enter number of features: 2
+Enter number of data points: 10
+Enter Epsilon: 1.5
+Enter MinPts: 3
+
+Data point 1:
+Feature 1: 1
+Feature 2: 1
+
+Data point 2:
+Feature 1: 1.5
+Feature 2: 1.8
+
+Data point 3:
+Feature 1: 2
+Feature 2: 1
+
+Data point 4:
+Feature 1: 1.2
+Feature 2: 1.4
+
+Data point 5:
+Feature 1: 8
+Feature 2: 8
+
+Data point 6:
+Feature 1: 8.5
+Feature 2: 8.2
+
+Data point 7:
+Feature 1: 9
+Feature 2: 8
+
+Data point 8:
+Feature 1: 8.2
+Feature 2: 9
+
+Data point 9:
+Feature 1: 4.5
+Feature 2: 5
+
+Data point 10:
+Feature 1: 15
+Feature 2: 1
+
+========== DBSCAN RESULT ==========
+Cluster 1: [[1.0, 1.0], [1.5, 1.8], [2.0, 1.0], [1.2, 1.4]]
+Cluster 2: [[8.0, 8.0], [8.5, 8.2], [9.0, 8.0], [8.2, 9.0]]
+Noise Points: [[4.5, 5.0], [15.0, 1.0]]
